@@ -1,0 +1,15 @@
+.vscode
+test.py
+*.log
+*.parm
+*.tlog
+*.tlog.raw
+*.ini
+*.BIN
+__pycache__
+*.DAT
+*.TXT
+*.bin
+save
+*.ou
+*.o

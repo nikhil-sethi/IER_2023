@@ -22,5 +22,6 @@ echo "Done."
 
 # Python
 echo "Installing Python libraries.." 
-pip3 install mavproxy scipy numpy matplotlib geopy tk dronekit pymavlink json pprint geocoder pexpect
+python3 -m pip install empy attrdict3 mavproxy scipy numpy matplotlib geopy tk dronekit pymavlink prettyprint geocoder pexpect
+python3 -m pip install -U -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-22.04 wxPython
 echo "Done."

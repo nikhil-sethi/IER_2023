@@ -123,7 +123,7 @@ if __name__ == "__main__":
     test_formation = pickle.load(open('formation', 'rb'))
 
     events1 = [ 
-                Event(role=Role.FORMATION, waypoint = (28.32713117, 77.41700224, 20), wp_rad = 20, speed = 10, form_min_dist=50, formation = test_formation),
+                Event(role=Role.FORMATION, waypoint = (28.32713117, 77.41700224, 20), wp_rad = 20, speed = 10, form_min_dist=80, formation = test_formation),
             ]
 
 

@@ -7,7 +7,7 @@ import pprint
 pp = pprint.PrettyPrinter(indent=4)
 import json
 from types import SimpleNamespace
-from settings import Project_path
+from tools.settings import Project_path
 
 
 class FlightMode(IntEnum):

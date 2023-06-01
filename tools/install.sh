@@ -17,6 +17,14 @@ Tools/environment_install/install-prereqs-ubuntu.sh -y
 ./waf configure
 ./waf copter
 
+echo -e "
+swarm1=28.32652130,77.41895210,0,0\n
+swarm2=28.32682130,77.41849156,0,0\n
+swarm3=28.32655410,77.41849156,0,0\n
+swarm4=28.32682130,77.41895210,0,0\n
+swarm5=28.32712130,77.41895210,0,0
+" >> ~/ardupilot/Tools/autotest/locations.txt
+
 echo "Done."
 
 

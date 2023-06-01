@@ -1,7 +1,9 @@
 # Formation Healing
 ## ME41125: Introduction to Engineering Research
-### Name: Nikhil Sethi
-### Student number: 5711428
+
+Name: Nikhil Sethi
+
+Student number: 5711428
 
 ## Project goal
 This repository contains code for reproducing the results of the paper titled *A self-healing algorithm for adaptive formation control with drone swarms* . The software is capable of producing a simulation of multiple drones which can heal themselves when some drones are lost as part of the formation.
@@ -17,12 +19,12 @@ A handy installation script is provided which should ideally install everything 
 
 ```bash
 # clone this repository
-git clone git@github.com:nikhil-sethi/formation-healing.git
-cd formation-healing
+git clone git@github.com:nikhil-sethi/IER_2023.git
+cd IER_2023
 
 # setup the requirements
-chmod +x install.sh
-./install.sh
+chmod +x tools/install.sh
+./tools/install.sh
 
 ```
 

@@ -72,6 +72,21 @@ Now save the mission file using the following command and run the mission like b
 python3 mission.py --write
 ```
 
+## Methodological information
+The following file explanations can help in understanding how the code was developed. For more detailed information please refer to the paper.
+
+`multicast.py`: This file is responsible for sending and receiving the drone states over a ad-hoc multicast channel. Each drone will start this file for their own.
+
+`swarm.py`: This file contains the actual mission that is performed for each uav. It has consensus algorithms for the drone formations.
+
+`mission.py`: This file allows the user to create a custom mission with the desired formation and write it has a pickled file 
+
+`plan_formation.py`: This file allows the user to design a new formation through a python GUI and a mouse.
+
+`manager.py`: This is a centralised file that is run on a ground control station and manages the servers, missions and simulation configurations.
+
+`tools/`: This directory has miscellaneous tools which help in scripts 
+
 ## Licensing
 This project is licensed under the [GNU GPLv3 License](https://gist.github.com/kn9ts/cbe95340d29fc1aaeaa5dd5c059d2e60) - see the [LICENSE.txt](LICENSE.txt) file for details
 
